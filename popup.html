@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <button class="tablink" value="red">Weight</button>
+  <button class="tablink" value="green" id="defaultOpen">Temperature</button>
+  <button class="tablink" value="blue">Length</button>
+  <button class="tablink" value="orange">Speed</button>
+
+  <div id="Weight" class="tabcontent">
+    <!-- <h3>Weight</h3>
+    <p>Home is where the heart is..</p> -->
+    <div class="group">
+      <label>Pounds (lb)</label>
+      <input type="number" id="inputPounds">
+    </div>
+    <div class="group">
+      <label>Ounces (oz)</label>
+      <input type="number" id="inputOunces">
+    </div>
+    <div class="group">
+      <label>Stone (st)</label>
+      <input type="number" id="inputStones">
+    </div>
+    <div class="group">
+      <label>Kilograms (kg)</label>
+      <input type="number" id="inputKilograms">
+    </div>
+    <div class="group">
+      <label>Grams (g)</label>
+      <input type="number" id="inputGrams">
+    </div>
+  </div>
+
+  <div id="Temperature" class="tabcontent">
+    <div class="group">
+      <label>Celsius</label>
+      <input type="number" id="inputCelsius">
+    </div>
+    <div class="group">
+      <label>Fahrenheit</label>
+      <input type="number" id="inputFahrenheit">
+    </div>
+    <div class="group">
+      <label>Kelvin</label>
+      <input type="number" id="inputKelvin">
+    </div>
+  </div>
+
+  <div id="Length" class="tabcontent">
+    <div class="group">
+      <label>Feet</label>
+      <input type="number" id="inputFeet">
+    </div>
+    <div class="group">
+      <label>Inches</label>
+      <input type="number" id="inputInches">
+    </div>
+    <div class="group">
+      <label>Yards</label>
+      <input type="number" id="inputYards">
+    </div>
+    <div class="group">
+      <label>Miles</label>
+      <input type="number" id="inputMiles">
+    </div>
+    <div class="group">
+      <label>Meters</label>
+      <input type="number" id="inputMeters">
+    </div>
+    <!-- <div class="group">
+      <label>cm</label>
+      <input type="number">
+    </div>
+    <div class="group">
+      <label>Kilometers</label>
+      <input type="number">
+    </div> -->
+  </div>
+
+  <div id="Speed" class="tabcontent">
+    <div class="group">
+      <label>MPH</label>
+      <input type="number" id="inputMPH">
+    </div>
+    <div class="group">
+      <label>KPH</label>
+      <input type="number" id="inputKPH">
+    </div>
+    <div class="group">
+      <label>Knots</label>
+      <input type="number" id="inputKnots">
+    </div>
+    <div class="group">
+      <label>Mach</label>
+      <input type="number" id="inputMach">
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
