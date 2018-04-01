@@ -39,9 +39,8 @@ function findConversionType(selectedText) {
     "fahrenheit",
     "degree",
     "deg",
-    "°c", "° c",
-    "°f", "° f",
-    "°k", "° k"
+    "°",
+    "˚"
   ];
 
   for (var i = 0; i < temperatures.length; i++) {
@@ -80,7 +79,7 @@ function convertTemperature(selectedText, num) {
   var result;
   console.log('inside convertTemperature()');
 
-  var unit = selectedText.match(/celsius|fahrenheit|kelvin|(°(\s)?(c|f|k))/i);
+  var unit = selectedText.match(/celsius|fahrenheit|kelvin|((°|˚)(\s)?(c|f|k))/i);
 
 
 

@@ -121,41 +121,31 @@ function converterLength(e) {
   if (id == "inputFeet") {
     inputMeters.value=(val/3.2808).toFixed(2);
     inputInches.value=(val*12).toFixed(2);
-    inputcm.value=(val/0.032808).toFixed();
     inputYards.value=(val*0.33333).toFixed(2);
-    inputKilometers.value=(val/3280.8).toFixed(5);
     inputMiles.value=(val*0.00018939).toFixed(5);
   }
   if (id == "inputInches") {
     inputFeet.value=(val*0.083333).toFixed(3);
     inputMeters.value=(val/39.370).toFixed(3);
-    inputcm.value=(val/0.39370).toFixed(2);
     inputYards.value=(val*0.027778).toFixed(3);
-    inputKilometers.value=(val/39370).toFixed(6);
     inputMiles.value=(val*0.000015783).toFixed(6);
   }
   if (id == "inputYards") {
     inputFeet.value=(val*3).toFixed();
     inputMeters.value=(val/1.0936).toFixed(2);
     inputInches.value=(val*36).toFixed();
-    inputcm.value=(val/0.010936).toFixed();
-    inputKilometers.value=(val/1093.6).toFixed(5);
     inputMiles.value=(val*0.00056818).toFixed(5);
   }
   if (id == "inputMiles") {
     inputFeet.value=(val*5280).toFixed();
     inputMeters.value=(val/0.00062137).toFixed();
     inputInches.value=(val*63360).toFixed();
-    inputcm.value=(val/0.0000062137).toFixed();
     inputYards.value=(val*1760).toFixed();
-    inputKilometers.value=(val/0.62137).toFixed(2);
   }
   if (id == "inputMeters") {
     inputFeet.value=(val*3.2808).toFixed(2);
     inputInches.value=(val*39.370).toFixed(2);
-    inputcm.value=(val/0.01).toFixed();
     inputYards.value=(val*1.0936).toFixed(2);
-    inputKilometers.value=(val/1000).toFixed(5);
     inputMiles.value=(val*0.00062137).toFixed(5);
   }
 }
